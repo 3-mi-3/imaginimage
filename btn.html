@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=1000px, initial-scale=1.0" />
+  <title>Bai tap lon</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style></style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="topbar" id="NavContent" style="padding-right: 0px;">
+        <div class="lefttb">
+            <span  class="icon1">
+          <button>
+              <i class="fa-brands fa-linkedin-in " style="color: #ffffff;"></i>
+            </button></span>
+            <span class="icon2">
+          <button>
+              <i class="fa-brands fa-twitter " style="color: #ffffff;"></i>
+            </button></span>
+            <span class="icon3">
+          <button><i class="fa-brands fa-pinterest " style="color: #ffffff;"></i>
+            </button></span>
+            <span  class="icon4">
+          <button><i class="fa-brands fa-google-plus-g " style="color: #ffffff;"></i>
+            </button></span>
+            <span class="icon5">
+            <button><i class="fa-solid fa-wifi " style="color: #ffffff;"></i></button>
+            </span>
+        </div>
+        <div class="righttb">
+          <a href="">Sign Up</a>
+          <a href="">Login</a>
+          <a href="">RSS Feeds</a>
+          <a href="">Archived News</a>
+        </div>
+
+      </div>
+      <header>
+        <div class="row">
+          <div class="col-md-12" style="padding: 0px;"><span><button onclick="MyNav(this)">-</button></span></div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-2">
+            <p class="lg1">IMAGINATIVE</p>
+          </div>
+          <div class="col-md-3">
+            <p class="lg2">Free PSD <br> Website Template</p>
+          </div>
+          <div class="col-md w-100 d-flex justify-content-end" style="padding: 0px;">
+            <div class="search">
+              <input type="search" placeholder="Search Our Website...">
+              <button type="submit">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" style="padding: 0px;">
+            <div class="topnv">
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn home-button"><a id="home" href="#">HOME</a></button>
+                <button type="button" class="btn"><a class="linknv" href="">STYLE DEMO</a></button>
+                <button type="button" class="btn"><a class="linknv" href="">FULL WIDTH</a></button>
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    DROPDOWN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+                <button type="button" class="btn"><a class="linknv" href="">PORTFOLIO</a></button>
+                <button type="button" class="btn"><a class="linknv" href="">GALLERY</a></button>
+                <button type="button" class="btn"><a class="linknv" href="">LONG TEXT LINK</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="slideshow-container">
+            <span style="width: 1000px; height: 80px;z-index: -2; background-color: #EBEBEB;position: absolute;margin-left: -50px; margin-top: -30px;">
+            </span>
+            <span style="background-color: white; z-index: -1; position: absolute; width: 960px;height: 80px;;margin-left: -30px;margin-top: -30px;"></span>
+        <div class="mySlides apr">
+
+          <img src="anh BT/slider/340-900x350.jpg" />
+          <div class="chu">
+            <h4>Pellentesque condimentum</h4>
+            <p>
+              Curabitur ullamcorper ipsum arcu, in commodo lacus semper vitae.
+              Nulla tempor scelerisque nunc in scelerisque.
+            </p>
+          </div>
+        </div>
+
+        <div class="mySlides apr">
+          <img src="anh BT/slider/340-900x350.jpg" />
+          <div class="chu">
+            <h4>Morbi scelerisque velit</h4>
+            <p>
+              Phasellus convallis lacus in faucibus posuere. Vestibulum
+              sodales, nisl rhoncus imperdiet vulputate.
+            </p>
+          </div>
+        </div>
+
+        <div class="mySlides apr">
+          <img src="anh BT/slider/547-900x350.jpg" />
+          <div class="chu">
+            <h4>Sed eleifend velit nec</h4>
+            <p>
+              Suspendisse sodales sit amet turpis quis mattis. Quisque feugiat
+              dolor a finibus tempus.
+            </p>
+          </div>
+        </div>
+
+        <div class="mySlides apr">
+          <img src="anh BT/slider/683-900x350.jpg" />
+          <div class="chu">
+            <h4>Integer in urna</h4>
+            <p>
+              Nam mattis convallis augue. Quisque iaculis suscipit
+              scelerisque. Sed iaculis risus a nisl gravida.
+            </p>
+          </div>
+        </div>
+
+        <div class="mySlides apr">
+          <img src="anh BT/slider/941-900x350.jpg" />
+          <div class="chu">
+            <h4>Praesent tincidunt</h4>
+            <p>
+              In mollis felis enim, quis vulputate nulla fringilla eget.
+              Praesent sollicitudin ornare mauris.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dots" style="text-align: center; margin-bottom: 40px;"><span class="dot" onclick="currentSlide(0)"></span><span class="dot"
+          onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span><span class="dot"
+          onclick="currentSlide(3)"></span><span class="dot" onclick="currentSlide(4)"></span></div>
+
+      <div class="content" style="padding: 0px;">
+
+        <span style="position: relative;" >
+            
+            <div style="height: 5px; width: 900px;background-color: #EBEBEB; z-index: -1;top: 9px; position: absolute;"></div>
+           <p style="text-align: center; font-size: 16px; background-color: #ffffff; width: fit-content; margin: auto;  padding: 0px 9px ;  ">YOUR TITLE HERE</p>
+            </span>
+        <div class="boxcard1" style="margin-top:30px">
+          
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/309-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/466-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/640-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/8-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/973-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row no-gutters">
+                <div class="col-md-2 img2">
+                  <img src="anh BT/content/959-64x64.jpg" alt="" />
+                </div>
+                <div class="col-md-9 ct2">
+                  <h5 class="colorct">Lorem ipsum dolor</h5>
+                  <p class="chuxam">
+                    Orciinterdum condimenterdum nullamcorper elit nam
+                    curabitur laoreet met praesenean et iac.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin: 0px;padding-left: 50px;">
+        <div class="col" style="padding: 0px;">
+          <span style="position: relative;" >
+            
+                <div style="height: 5px; width: 445px;background-color: #EBEBEB; z-index: -1;top: 9px; position: absolute;"></div>
+               <p style="text-align: center; font-size: 16px; background-color: #ffffff; width: fit-content; margin: auto;  padding: 0px 9px ;  ">YOUR TITLE HERE</p>
+                </span>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4" >
+              
+              
+              <div>
+                <img class="imgtron" src="anh BT/content/784-128x128.jpg" alt="Ảnh tròn">
+              </div>
+              
+              </div>
+          
+            <div class="col" >
+              <h5>Title Goes Here</h5>
+              <p class="chuxam">
+                Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
+              </p>
+              <a style="text-decoration: none; color: #97455f;" href="">Read More>></a>
+            </div>
+          </div>
+        </div>
+        <div class="col"  style="padding: 0px;">
+          <span style="position: relative;" >
+            
+              <div style="height: 5px; width: 445px;background-color: #EBEBEB; z-index: -1;top: 9px; position: absolute;"></div>
+             <p style="text-align: center; font-size: 16px; background-color: #ffffff; width: fit-content; margin: auto;  padding: 0px 9px ;  ">YOUR TITLE HERE</p>
+              </span>
+          <div class="row" style="margin-top: 30px;">
+            
+            <div class="col-md-2" >
+
+            <img style="color: #97455F;" src="anh BT/content/composite-path.png" alt=""></div> <!--làm ở đây nhá-->
+            <div class="col-md-9">
+              <h5>Tommy Tanker - CEO</h5>
+              <a style="text-decoration: none; color: #97455f;"  href="">View This Project »</a>
+            </div>
+            <div class="col chuxam">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row mb-5 mt-5" style="height: 106px; width: 900px; margin-left: 40px; background-color: #97455F; border-radius: 7px;">
+        <div class="col-7"  style="padding-top: 15px; padding-left: 29px; color: #E5E5E5;">
+        <p style="padding-left: 1px;font-size: 36px;">Orciinterdum Corper Elit Nam ?</p>
+        <p style="margin-top: -16px; font-size: 18px;">Orciinterdum condimen urabitur laoreet met praesenean et iac !</p>
+        </div>
+        <div class="col-5">
+          <button style="background-color: #ffffff; color: #97455F; text-align: center; border-radius: 7px; border: transparent; margin: 24px 20px;padding: 5px 12px; font-size: 28px; float: right;">CONTACT US TODAY</button>
+          </div>
+       </div>
+      <footer>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12"> <h6>Latest From The Blog</h6></div>
+            </div>
+            <div class="row">
+              <div class="col-md-3"><img src="anh BT/footer/458-95x95.jpg" alt="" /></div>
+              <div class="col-md-9"><h6>Metuervestas mus lacinia</h6>
+              <p class="chuxam" >Convallisijusto vestas mus pellentum aeneansa pibu lum in aliquam volut pat integest nulla. Acsed sed nunc at fring maurisusce at elis ut vitae laorem.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3"><img src="anh BT/footer/939-95x95.jpg" alt="" /></div>
+              <div class="col-md-9"><h6 >Metuervestas mus lacinia</h6>
+              <p class="chuxam" >Convallisijusto vestas mus pellentum aeneansa pibu lum in aliquam volut pat integest nulla. Acsed sed nunc at fring maurisusce at elis ut vitae laorem.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-12"><h6>Company Details</h6></div>
+              <div class="col-md-12 chuxam">Company Name <br>
+                Street Name & Number <br>
+                Town <br>
+                Postcode/Zip</div>
+              <div class="col-md-12 mt-3 mb-3 chuxam">Tel: xxxxx xxxxxxxxxx <br>
+                Fax: xxxxx xxxxxxxxxx <br>
+                Email: <a class="linkft" href="contact@mydomain.com">contact@mydomain.com</a></div>
+              <div class="col-md-12">Office Hours</div>
+              <div class="col-md-12 chuxam">Monday - Friday: 08:00 - 17:30
+                Saturday: 08:00 - 13:00</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-12">Contact Us</div>
+              <div class="col-md-12 mb-3 mt-3"> <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Name"></div>
+              <div class="col-md-12 mb-3"> <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"></div>
+              <div class="col-md-12 mb-3" > 
+                <div class="input-group mb-3">
+                <input type="text" class="form-control message" placeholder="message">
+                <div class="input-group-append">
+                </div></div>
+              <div class="col-md-12 "><input class="btnft" type="submit" value="Submit"></div>
+            </div>
+          </div>
+        </div>
+  </footer>
+  <div class="coppyright">
+   <div class="cprleft">Copyright © 2013 - All Rights Reserved - Domain Name</div>
+   <div class="cprright">Template by OS Templates</div>
+  </div>
+  </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
