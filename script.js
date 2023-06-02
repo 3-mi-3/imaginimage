@@ -46,5 +46,5 @@ function showSlides() {
   }
   slides[slideIndex].style.display = "block";  
   dots[slideIndex].className += " active";
-  setTimeout(showSlides, 3500); 
+  setTimeout(showSlides, 7000); 
 }
