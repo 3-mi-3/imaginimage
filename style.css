@@ -200,6 +200,13 @@
 .message::placeholder{
   top: 0;
   position: absolute;
+  color: #999999;
+}
+#exampleFormControlInput1::placeholder{
+ color: #999999;
+}
+#exampleFormControlInput2::placeholder{
+  color: #999999;
 }
 footer{
   background-color: #ebebeb;
