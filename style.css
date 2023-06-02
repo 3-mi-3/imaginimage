@@ -287,8 +287,8 @@ footer{
 }
 
 @keyframes apr{
-    from {}
-    to {}
+    from {opacity: .3}
+  to {opacity: 1}
 }
   
   .topbar .lefttb .icon1 :hover {
